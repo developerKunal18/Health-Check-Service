@@ -1,0 +1,35 @@
+🧠 Why This Is Important
+In production:
+
+Load Balancer
+      ↓
+   Service
+
+Before sending traffic:
+
+Is service healthy?
+      ↓
+     YES ✅
+
+If unhealthy:
+Remove from traffic ❌
+
+Used By:
+Kubernetes Probes
+Docker Health Checks
+AWS Load Balancer
+Nginx
+HAProxy
+
+🛠 Tech Stack
+Python
+Flask
+SQLAlchemy
+psutil
+
+📂 Project Structure
+health-check-service/
+│
+├── app.py
+├── requirements.txt
+└── README.md
